@@ -1,0 +1,30 @@
+Print at first
+http://127.0.0.1:8000/restaurants/1/
+http://127.0.0.1:8000/restaurants/1/
+http://127.0.0.1:8000/restaurants/2/
+http://127.0.0.1:8000/restaurants/2/
+<class 'dict'>
+data :
+{'data': [{'type': 'Dish', 'id': '1', 'attributes': {'name': 'Volcano Roll', 'rating': 3}, 'relationships': {'restaurant': {'data': {'type': 'Restaurant', 'id': '1'}, 'links': {'related': 'http://127.0.0.1:8000/restaurants/1/'}}}}, {'type': 'Dish', 'id': '2', 'attributes': {'name': 'Salmon Nigiri', 'rating': 4}, 'relationships': {'restaurant': {'data': {'type': 'Restaurant', 'id': '1'}, 'links': {'related': 'http://127.0.0.1:8000/restaurants/1/'}}}}, {'type': 'Dish', 'id': '3', 'attributes': {'name': 'Barbecue Burger', 'rating': 5}, 'relationships': {'restaurant': {'data': {'type': 'Restaurant', 'id': '2'}, 'links': {'related': 'http://127.0.0.1:8000/restaurants/2/'}}}}, {'type': 'Dish', 'id': '4', 'attributes': {'name': 'Slider', 'rating': 3}, 'relationships': {'restaurant': {'data': {'type': 'Restaurant', 'id': '2'}, 'links': {'related': 'http://127.0.0.1:8000/restaurants/2/'}}}}]}
+data['data']:
+[{'type': 'Dish', 'id': '1', 'attributes': {'name': 'Volcano Roll', 'rating': 3}, 'relationships': {'restaurant': {'data': {'type': 'Restaurant', 'id': '1'}, 'links': {'related': 'http://127.0.0.1:8000/restaurants/1/'}}}}, {'type': 'Dish', 'id': '2', 'attributes': {'name': 'Salmon Nigiri', 'rating': 4}, 'relationships': {'restaurant': {'data': {'type': 'Restaurant', 'id': '1'}, 'links': {'related': 'http://127.0.0.1:8000/restaurants/1/'}}}}, {'type': 'Dish', 'id': '3', 'attributes': {'name': 'Barbecue Burger', 'rating': 5}, 'relationships': {'restaurant': {'data': {'type': 'Restaurant', 'id': '2'}, 'links': {'related': 'http://127.0.0.1:8000/restaurants/2/'}}}}, {'type': 'Dish', 'id': '4', 'attributes': {'name': 'Slider', 'rating': 3}, 'relationships': {'restaurant': {'data': {'type': 'Restaurant', 'id': '2'}, 'links': {'related': 'http://127.0.0.1:8000/restaurants/2/'}}}}]
+<class 'list'>
+Attributes : 
+Volcano Roll , 3
+Salmon Nigiri , 4
+Barbecue Burger , 5
+Slider , 3
+
+
+Relationships : 
+{'data': {'type': 'Restaurant', 'id': '1'}, 'links': {'related': 'http://127.0.0.1:8000/restaurants/1/'}}
+{'data': {'type': 'Restaurant', 'id': '1'}, 'links': {'related': 'http://127.0.0.1:8000/restaurants/1/'}}
+{'data': {'type': 'Restaurant', 'id': '2'}, 'links': {'related': 'http://127.0.0.1:8000/restaurants/2/'}}
+{'data': {'type': 'Restaurant', 'id': '2'}, 'links': {'related': 'http://127.0.0.1:8000/restaurants/2/'}}
+
+
+Links : 
+http://127.0.0.1:8000/restaurants/1/
+http://127.0.0.1:8000/restaurants/1/
+http://127.0.0.1:8000/restaurants/2/
+http://127.0.0.1:8000/restaurants/2/
